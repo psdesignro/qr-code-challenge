@@ -28,7 +28,7 @@ body {
     gap: 40px;
     margin: auto;
 }
-.card{
+.card-main{
     background-color: var(--neutral-100);
     width: 288px;
     display: flex;
@@ -42,7 +42,7 @@ body {
     box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.047);
 }
 
-.card .text-content{
+.card-main .text-content{
     max-width: 288px;
     display: flex;
     flex-direction: column;
@@ -51,7 +51,7 @@ body {
     padding-bottom: 24px;
 }
 
-.card .text-content p{
+.card-main .text-content p{
     text-align: center;
     color:var(--body-color);
     font-size: 15px;
@@ -61,7 +61,7 @@ body {
     letter-spacing: 0.19px;
 }
 
-.card .text-content h1 {
+.card-main .text-content h1 {
     text-align: center;
     color:var(--primary-color);
     margin:0;
@@ -93,7 +93,7 @@ body {
 
 @media screen and (max-width: 480px) {
 
-    .container{
+    .container-section{
           
         display: flex;
         flex-direction: column;
