@@ -42,7 +42,7 @@ body {
     box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.047);
 }
 
-.main-card.text-content{
+.main-card .text-content{
     max-width: 288px;
     display: flex;
     flex-direction: column;
