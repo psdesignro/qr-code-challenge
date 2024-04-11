@@ -14,14 +14,13 @@ body {
     flex-direction: column;
     margin-top: auto;
     height: 100vh;
-    width:calc (100% - 17px);
+    width:calc(100% - 17px);
     overflow: hidden;
     
 }
 
 
-.container{
-   
+.container-section{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,9 +30,9 @@ body {
 }
 .card{
     background-color: var(--neutral-100);
+    width: 288px;
     display: flex;
     flex-direction: column;
-    
     gap:24px;
     align-content: center;
     justify-content: center;
