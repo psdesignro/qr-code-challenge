@@ -20,7 +20,7 @@ body {
 }
 
 
-.desktop{
+.container{
    
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@ body {
     background-color: var(--neutral-100);
     display: flex;
     flex-direction: column;
-    width: 288px;
+    
     gap:24px;
     align-content: center;
     justify-content: center;
@@ -44,6 +44,7 @@ body {
 }
 
 .card .text-content{
+    max-width: 288px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,8 +72,8 @@ body {
 }
 
 .image-container{
-    width: 288px;
-    height: 288px;
+    max-width: 288px;
+    height: auto;
     overflow: hidden;
     border-radius: 10px;
 }
@@ -90,3 +91,23 @@ body {
     margin:16px;
  
 }
+
+@media screen and (max-width: 480px) {
+
+    .container{
+          
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin: auto;
+    }
+
+
+    .attribution{
+            justify-content: center;
+   
+         }
+ 
+  }
